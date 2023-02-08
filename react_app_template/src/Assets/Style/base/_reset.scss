@@ -1,0 +1,41 @@
+/*Reset/Normalize all elements*/
+* {
+  // Main Style Standard
+  //   background: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  // Font Style Standard
+  font-size: 100% inherit;
+  text-decoration: none;
+  // text-align: center;
+
+  //Other Style Standard
+  list-style: none;
+}
+
+#container {
+  text-align: center;
+  background: inherit;
+}
+
+//Nested CSS
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "axios": {
+    "baseUrl": "http://localhost:5555/"
+  }
+}

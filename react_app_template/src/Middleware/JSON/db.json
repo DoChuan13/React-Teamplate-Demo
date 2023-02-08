@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "type": "admin",
+      "status": true,
+      "permision": {
+        "add": true,
+        "view": true,
+        "edit": true,
+        "delete": true
+      },
+      "profile": {
+        "firsName": "An",
+        "lastName": "Nguyen Van",
+        "email": "abc@gmail.com",
+        "password": "12345678",
+        "resetPassCode": "abcdef",
+        "mobilePhone": "09xxxxxxx",
+        "dateOfBirth": "22-12-1",
+        "placeOfBirth": "Ha Noi",
+        "address": "Ha Noi"
+      },
+      "favorite": [
+        {
+          "id": 1,
+          "name": "San pham A",
+          "favoriteDate": ""
+        }
+      ],
+      "carts": [
+        {
+          "id": 1,
+          "buyQuantity": "",
+          "orderDate": ""
+        }
+      ],
+      "bought": [
+        {
+          "product": {
+            "id": 1,
+            "name": "San pham A",
+            "image": "",
+            "data": "",
+            "title": "",
+            "price": 100,
+            "quantity": "",
+            "boughtDate": ""
+          },
+          "review": {
+            "content": "",
+            "status": "pending"
+          }
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "San pham A",
+      "image": "",
+      "data": "",
+      "title": "",
+      "price": 100,
+      "quantity": "",
+      "remainQuantity": ""
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+/*Typography standard....*/
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4; // 15px * 1.4 = 21px
+  color: $colorBlack;
+}
+
+/*Mobile Font size 01*/
+@media (max-width: 575.98px) {
+  .title-mb {
+    font-size: $font-title-mb;
+  }
+
+  .headline-mb {
+    font-size: $font-headline-mb;
+  }
+
+  .body-mb {
+    font-size: $font-body-mb;
+  }
+
+  .sub-body-mb {
+    font-size: $font-sub-body-mb;
+  }
+}
+
+/*Mobile Font size 02*/
+@media (min-width: 576px) {
+  .title-mb {
+    font-size: $font-title-mb;
+  }
+
+  .headline-mb {
+    font-size: $font-headline-mb;
+  }
+
+  .body-mb {
+    font-size: $font-body-mb;
+  }
+
+  .sub-body-mb {
+    font-size: $font-sub-body-mb;
+  }
+}
+
+/*Table Font size*/
+@media (min-width: 768px) {
+  .title-tb {
+    font-size: $font-title-tb;
+  }
+
+  .headline-tb {
+    font-size: $font-headline-tb;
+  }
+
+  .body-tb {
+    font-size: $font-body-tb;
+  }
+
+  .sub-body-tb {
+    font-size: $font-sub-body-tb;
+  }
+}
+
+/*PC Font size 01*/
+@media (min-width: 992px) {
+  .title-pc {
+    font-size: $font-title-pc;
+  }
+
+  .headline-pc {
+    font-size: $font-headline-pc;
+  }
+
+  .body-pc {
+    font-size: $font-body-pc;
+  }
+
+  .sub-body-pc {
+    font-size: $font-sub-body-pc;
+  }
+}
+
+/*PC Font size 02*/
+// @media (min-width: 1200px) {}

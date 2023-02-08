@@ -1,0 +1,12 @@
+/*Common css for more object => @include for other object*/
+@mixin important-text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+.danger {
+    @include important-text;
+    background-color: green;
+}
